@@ -7,6 +7,9 @@ import TheGeekly from "../../Assets/Projects/TheGeekly.png";
 import CarboTrack from "../../Assets/Projects/CarboTrack.png";
 import Sched from "../../Assets/Projects/Sched.png";
 import Aprendiz from "../../Assets/Projects/Aprendiz.png";
+import ECommerce from "../../Assets/Projects/e-commerce.png";
+import Blog from "../../Assets/Projects/blog.png";
+import Quotes from "../../Assets/Projects/quotes.png";
 
 function Projects() {
   return (
@@ -14,7 +17,8 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="teal">Projects, Certifications & Awards</strong>
+          My Recent{" "}
+          <strong className="teal">Projects, Certifications & Awards</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few things I've worked on recently.
@@ -22,39 +26,38 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CarboTrack}
+              imgPath={ECommerce}
               isBlog={false}
-              title="CarboTrack"
-              description="CarboTrack is a web application that allows the user to track their carbon footprint based on electricity usage, transportation, and food consumption. My team and I used tensorflow.js to allow for taking pictures of various items to determine their carbon footpring. The result can then be copied to the clipboard and shared through emojis. This was built in 24 hours' time and my team (NextGen) won second prize in SISHACK."
-              ghLink="https://github.com/Dhruvsr/CarboTrack"
-              demoLink="https://dhruv.is-from.space/CarboTrack_Demo.MP4"
+              title="Mini Apps E-Commerce"
+              description="This is a buying and selling website created using MongoDB, ExpressJS, Angular, and NodeJS Database technologies. This website is a small example of E-Commerce which includes add to cart and product checkout features. This website also supports responsiveness on mobile, tablet and desktop displays."
+              ghLink="https://github.com/diarjr198/b3-assignment3FE"
+              demoLink="https://www.ef-store.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Sched}
+              imgPath={Blog}
               isBlog={false}
-              title="Sched"
-              description="Sched is the all-in-one scheduling app. It is a nifty chrome extension and easily accessible website that improves students' productivity. It features a task organizer based on priority and turning on its focus mode will ensure there are no disturbances during the session as it blocks any distracting websites, while storing information on localstorage. My team (NextGen) won the second prize in NeevHacks."
-              ghLink="https://github.com/Dhruvsr/Sched"
-              demoLink="https://dhruv.is-from.space/1659861963.png"
+              title="Mini Apps Blog"
+              description="This is a static blog website about health that I created with HTML, CSS, Javascript, Bootstrap & Jquery technology. This website still uses static data which is set manually using a javascript array and then displayed to the website page. This website also supports responsiveness on mobile, tablet and desktop displays."
+              ghLink="https://github.com/diarjr198/static_blog"
+              demoLink="https://static-blog-rho.vercel.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Aprendiz}
+              imgPath={Quotes}
               isBlog={false}
-              title="Aprendiz"
-              description="Aprendiz is a Chrome Extension that changes certain words on websites (such as wikipedia.com) to help students learn multiple languages such as Spanish, French,Kannada, German and Dutch. Expand your vocabulary in a particular language while browsing the web, and subconciously picking up a language. The extension is made up of JavaScript and HTML, and its relatively easy-to-use interface makes it effortless to add more language support.
-              "
-              ghLink="https://github.com/Dhruvsr/Aprendiz"
-              demoLink="https://dhruv.is-from.space/2021-10-10-20-08-04.mov"
+              title="Mini Apps Quotes"
+              description="This is a website that contains quotes, where we can add our own quotes on this website. The drawback is that this website is still static, when the page is refreshed the data that has been added is lost to the original. This website also supports responsiveness on mobile, tablet and desktop displays."
+              ghLink="https://github.com/diarjr198/tugas_jvalley_quotes"
+              demoLink="https://tugas-jvalley-quotes-phi.vercel.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Salus}
               isComp={true}
@@ -65,17 +68,16 @@ function Projects() {
             />
           </Col>
 
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TheGeekly}
               isBlog={false}
               title="The Geekly"
               description="I co-founded The Geekly, a magazine exploring the universe through the lens of science. 12 issues have been created till date, featuring original and interesting articles. "
               // ghLink="not needed here"
-              demoLink="https://thegeekly.net" 
+              demoLink="https://thegeekly.net"
             />
-          </Col> 
-
+          </Col> */}
         </Row>
       </Container>
     </Container>

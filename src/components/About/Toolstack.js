@@ -5,7 +5,8 @@ import {
   SiVisualstudiocode,
   SiArchlinux,
   SiMarkdown,
-  SiInkscape
+  SiInkscape,
+  SiMicrosoftoffice,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -17,14 +18,14 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiArchlinux />
-      </Col>
+      </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiReact />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiInkscape />
+        <SiMicrosoftoffice />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMarkdown />

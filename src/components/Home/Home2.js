@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/dhruv.png";
+import myImg from "../../Assets/MyImg.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function Home2() {
@@ -17,24 +15,37 @@ function Home2() {
               Who Am <span className="teal"> I? </span>
             </h1>
             <p className="home-about-body">
-              I am a Grade 10 student studying @ Neev Academy in Bangalore, India.
+              I am Diar Julianto Rahadi, a graduate of SMK Negeri 7 Jakarta.
+              Department of Computer and Network Engineering. Personally,
+              well-rounded person who has an interest in Technology (IT), such
+              as Software Development and Computer Technology. I can work as a
+              team or individual, able to adapt and communicate well, fast
+              learner, detail oriented, hard worker, interested in learning new
+              things, and have good time management.
               <br />
               <br />I occasionally immerse myself with
               <i>
-                <b className="purple"> HTML, CSS and JavaScript. </b>
+                <b className="purple">
+                  {" "}
+                  HTML, CSS, JavaScript, ReactJS, NodeJS and ExpressJS.{" "}
+                </b>
               </i>
               <br />
-              <br />
-              I am the co-founder of a science magazine called 
+              {/* <br />I am the co-founder of a science magazine called
               <i>
-                <a href="https://thegeekly.net"><b className="teal"> The Geekly</b></a>; a magazine exploring the universe through the lens of science.
-                I have also participated in various <a href="https://www.linkedin.com/in/dhruv-ramu-1a325622a/details/honors/"><b className="teal">
-                  Hackathons</b></a> and have applied my skills in a competitive environment.
+                <a href="https://thegeekly.net">
+                  <b className="teal"> The Geekly</b>
+                </a>
+                ; a magazine exploring the universe through the lens of science.
+                I have also participated in various{" "}
+                <a href="https://www.linkedin.com/in/dhruv-ramu-1a325622a/details/honors/">
+                  <b className="teal">Hackathons</b>
+                </a>{" "}
+                and have applied my skills in a competitive environment.
               </i>
               <br />
-              <br />
-              I also utilize <b className="teal"> LaTeX </b> and
-                 <b className="teal"> Markdown. </b>
+              <br />I also utilize <b className="teal"> LaTeX </b> and
+              <b className="teal"> Markdown. </b> */}
               {/*and
               <i>
                 <b className="purple"> React.js and Next.js</b>
@@ -56,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Dhruvsr"
+                  href="https://github.com/diarjr198"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/dhruv-ramu-1a325622a/"
+                  href="https://www.linkedin.com/in/diar-julianto-rahadi-b1324219a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:dhruv@thegeekly.net"
+                  href="mailto:diar.student@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

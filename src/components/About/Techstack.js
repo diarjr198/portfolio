@@ -18,11 +18,9 @@ import {
   SiNpm,
   SiYarn,
   SiArduino,
-  SiRaspberrypi
+  SiRaspberrypi,
 } from "react-icons/si";
-import {
-  GrHostMaintenance
-} from "react-icons/gr";
+import { GrHostMaintenance } from "react-icons/gr";
 
 function Techstack() {
   return (
@@ -34,14 +32,14 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3/>
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiArduino />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiTerminal />
       </Col>
@@ -54,9 +52,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNpm />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiRaspberrypi />
-      </Col>
+      </Col> */}
     </Row>
   );
 }
