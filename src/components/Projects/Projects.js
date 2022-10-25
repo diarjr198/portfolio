@@ -29,7 +29,7 @@ function Projects() {
               imgPath={ECommerce}
               isBlog={false}
               title="Mini Apps E-Commerce"
-              description="This is a buying and selling website created using MongoDB, ExpressJS, Angular, and NodeJS Database technologies. This website is a small example of E-Commerce which includes add to cart and product checkout features. This website also supports responsiveness on mobile, tablet and desktop displays."
+              description="This is a buying and selling website created using Database MongoDB, ExpressJS, Angular, and NodeJS technologies. This website is a small example of E-Commerce which includes add to cart and product checkout features. This website also supports responsiveness on mobile, tablet and desktop displays."
               ghLink="https://github.com/diarjr198/b3-assignment3FE"
               demoLink="https://www.ef-store.com"
             />
